@@ -42,16 +42,23 @@ print "...%s...%s..." % ("..", "..") （只有一个可省略括号 如果是数
 
 打印十个点 字符串倍增：print "." * 10；
 逗号连接两行打印的字符串 打印出来一个空格连接 不转行：
->    print ".." + "..",  
+>    print ".." + "..",
+>
 >    print ".." + ".."
 
 要插入的字符串太长可以这样转行 打印出来依然只用一个空格连接它们四个不转行：
->    formatter = "%r %r %r %r"  
->    print formatter % (  
->    "I had this thing.",  
->    "That you could type up right.",  
->    "But it didn't sing.",  
->    "So I said goodnight."  
+>    formatter = "%r %r %r %r"
+
+>    print formatter % (
+
+>    "I had this thing.",
+
+>    "That you could type up right.",
+
+>    "But it didn't sing.",
+
+>    "So I said goodnight."
+
 >    )
 
 ## Exercise 9~10 转义字符 \ 特殊功能
