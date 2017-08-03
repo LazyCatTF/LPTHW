@@ -2,15 +2,15 @@
 
 ## Exercise 0 主要是 powershell终端 的用法
 
-Notepad++编辑器（写Python代码和txt）；
-powershell终端（运行代码，还有各种操作，可在《LPTHW附录A详细学习》）；
-Python语言，安装时记得完整安装（把最后一个叉叉选项改了），不然终端调用不了Python，解决起来很复杂
+Notepad++编辑器（写Python代码和txt）；  
+powershell终端（运行代码，还有各种操作，可在《LPTHW》附录A详细学习）；  
+Python语言，安装时记得完整安装（把最后一个叉叉选项改了），不然终端调用不了Python，解决起来很复杂  
 
 本练习中用到的powershell的命令：
 * Python：调用Python，写写代码并运行，CTRL+Z退出
 * mkdir mystuff：在当前目录新建名为“mystuff”的文件夹
 * new-item -path c:/ -name filename -type directory：新建文件/文件夹
-    -path指定地址（省略则在当前目录创建，省略-path直接写目录也行），-name指定文件名，-type指定directory（文件夹）或file（文件）；
+    -path指定地址（省略则在当前目录创建，省略-path直接写目录也行），-name指定文件名，-type指定directory（文件夹）或file（文件）；  
     只输入new-item -name filename，终端会询问type，这样比较简洁
 * cd mystuff：进入“mystuff”文件夹（文件夹得在当前目录才行，不然得cd     e:/downloads/.../mystuff这样输入其所在的目录）
     在e盘中的mystuff时输入cd c:可进入c盘，再输入cd e:（而非e:/）会直接跳回mystuff文件夹中
@@ -20,27 +20,27 @@ Python语言，安装时记得完整安装（把最后一个叉叉选项改了�
 
 ## Exercise 1~4 一些简单的基础
 
-打印字符串 注释；
+打印字符串 注释；  
 print单独占一行 运行后在这里有一个空行
 
 代码开头输入“# -*- coding: utf-8 -*-”，后面可出现非英语字符
 
-数学运算 + - * / %（余数）；
-用整型运算结果只保留整数部分 用浮点数可得到精确结果；
+数学运算 + - * / %（余数）；  
+用整型运算结果只保留整数部分 用浮点数可得到精确结果；  
 < > <= >= 运行不等式可输出True/False
 
-给variable变量赋数值；
+给variable变量赋数值； 
 变量夹在字符串中被打印（用逗号连接 打印后有空格隔开）
 
 ## Exercise 5~8 格式化字符串 % 将目标插入字符串中间某处
 
-print "...%s...%s..." % ("..", "..") （只有一个可省略括号 如果是数值可以运算）；
-%s字符串 %d整型 %r通用 如果是字符串会带引号 %.3f 保留三位小数的浮点数 等等；
+print "...%s...%s..." % ("..", "..") （只有一个可省略括号 如果是数值可以运算）；  
+%s字符串 %d整型 %r通用 如果是字符串会带引号 %.3f 保留三位小数的浮点数 等等；  
 四舍五入 round(1.7333)
 
 +号连接几段字符串 中间不空格
 
-打印十个点 字符串倍增：print "." * 10；
+打印十个点 字符串倍增：print "." * 10；  
 逗号连接两行打印的字符串 打印出来一个空格连接 不转行：
 >    print ".." + "..",  
 >    print ".." + ".."
@@ -56,8 +56,8 @@ print "...%s...%s..." % ("..", "..") （只有一个可省略括号 如果是数
 
 ## Exercise 9~10 转义字符 \ 特殊功能
 
-字符串中可用 \n 代表空格；
-若干行字符串 用三个引号；
+字符串中可用 \n 代表空格；  
+若干行字符串 用三个引号；  
 这样打印出来前后会空一行 三行前后与引号之间不转行也可以 而且前后不空行：
 >    print """  
 >    ...  
@@ -65,9 +65,9 @@ print "...%s...%s..." % ("..", "..") （只有一个可省略括号 如果是数
 >    ...  
 >    """
 
-\\ 一个反斜杠 \' \" 引号 和框住字符串的引号区分开 \n 空格 \t 缩进四格 \r 光标移动到最前（此时输入别的字符会替换后面相应数量的字符） 等等；
-用 %r 插入内部带有引号的字符串的时候 会加上反斜杠以示区分 和 %s 对比；
-用 %r 插入的转义字符显示原型 不起作用；
+\\ 一个反斜杠 \' \" 引号 和框住字符串的引号区分开 \n 空格 \t 缩进四格 \r 光标移动到最前（此时输入别的字符会替换后面相应数量的字符） 等等；  
+用 %r 插入内部带有引号的字符串的时候 会加上反斜杠以示区分 和 %s 对比；  
+用 %r 插入的转义字符显示原型 不起作用；  
 这段代码会让一个杠杠无限旋转 我不知道怎么停止它：
 > while True:  
 > &emsp;&emsp;for i in ["/","-","|","\\","|"]:  
@@ -75,18 +75,18 @@ print "...%s...%s..." % ("..", "..") （只有一个可省略括号 如果是数
 
 ## Exercise 11~14 从外部得到字符串并赋值给变量
 
-raw_input 代码运行时输入要被赋值的字符串：
-print "Question?", （逗号 用一个空格分隔两行 不转行）；
-variable = raw_input()；
-或者：
+raw_input 代码运行时输入要被赋值的字符串：  
+print "Question?", （逗号 用一个空格分隔两行 不转行）；  
+variable = raw_input()；  
+或者：  
 variable = raw_input("Question?")
 
-python -m pydoc 某函数：在 powershell终端 读取函数说明；
+python -m pydoc 某函数：在 powershell终端 读取函数说明；  
 q 退出 pydoc
 
-argv 代码运行前输入要被赋值的 n 个字符串列表：
-from sys import argv （argv解包后得到一个变量列表如下）；
-scriptname, variable_1, variable_2, ..., variable_n = argv；
+argv 代码运行前输入要被赋值的 n 个字符串列表：  
+from sys import argv （argv解包后得到一个变量列表如下）；  
+scriptname, variable_1, variable_2, ..., variable_n = argv；  
 然后在powershell终端 原本运行代码只输入 "python py文件名" 现在要在后面跟上 n 个不加引号的字符串 如"python ex13.py aaa 222 ccc ..." 这样就会把 py文件名 赋值给 scriptname变量 把 aaa 222 ccc ... 这些字符串们分别赋值给 variable_1 variable_2 ...一直到 variable_n 数量自己决定 要对应好
 
 ## Exercise 15~17（以及20） 文件读写
@@ -101,8 +101,8 @@ FileItself = open(filename) 打开文件 可看作把文件本身 而非文件�
 
 FileItself.readline 则是读一行 读完之后文件会记录光标的位置在该行末尾 再次运行时就会读下一行
 
-移动光标的命令 FileItself.seek(偏移量, [起始位置])；
-偏移量：单位比特 可正可负；
+移动光标的命令 FileItself.seek(偏移量, [起始位置])；  
+偏移量：单位比特 可正可负；  
 起始位置：0 文件开头 默认值；1 当前位置；2 文件结尾
 
 FileItself = open(filename.'w') 是在 write 模式下打开文件 并把文件本身赋值给 FileItself变量 这种模式下可以使用 FileItself.write(被赋值字符串的函数或字符串) （从光标处开始）把指定内容写入文件 覆盖掉文件上原来的内容 也可以使用 FileItself.truncate() 清除掉文件里的内容
@@ -111,12 +111,12 @@ FileItself = open(filename.'w') 是在 write 模式下打开文件 并把文件�
 
 有 open 就要有 close 如果前面单独使用了 open(filename) 不管有没有赋值 代码结尾都要有 FileItself.close()
 
-每一处赋值 等号左右都是等价的 可以换用 如果不把文件名 文件本身 文件内容赋值 用嵌套的方式一行代码完成文件 open 和 read 或 write 如：
-open(to_file, 'w').write(open(from_file).read())；
+每一处赋值 等号左右都是等价的 可以换用 如果不把文件名 文件本身 文件内容赋值 用嵌套的方式一行代码完成文件 open 和 read 或 write 如：  
+open(to_file, 'w').write(open(from_file).read())；  
 那么看作没有 open 文件 结尾也不用 close
 
-from os.path import exists；
-exists(filename) 文件存在是 True 不存在则 False；
+from os.path import exists；  
+exists(filename) 文件存在是 True 不存在则 False；  
 
 len(字符串) 该字符串的长度或字符数 数值
 
@@ -126,10 +126,10 @@ echo "..." > test.txt 创建文件及其内容；
 
 ## Exercise 18~21 函数
 
-def 定义函数 函数名紧接括号 第一行冒号结尾 后面行都有四格缩进 return 定义输出值；
-括号内参数可做数学运算；
-可用 int() 或 float() 套 raw_input() 把获取的字符串转为数字；
-a = a + b 等价于 a += b；
+def 定义函数 函数名紧接括号 第一行冒号结尾 后面行都有四格缩进 return 定义输出值；  
+括号内参数可做数学运算；  
+可用 int() 或 float() 套 raw_input() 把获取的字符串转为数字；  
+a = a + b 等价于 a += b；  
 函数里嵌套函数
 
 # 小结
