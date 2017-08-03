@@ -42,16 +42,16 @@ print "...%s...%s..." % ("..", "..") （只有一个可省略括号 如果是数
 
 打印十个点 字符串倍增：print "." * 10；
 逗号连接两行打印的字符串 打印出来一个空格连接 不转行：
->    print ".." + "..",
->    print ".." + ".."
+>    print ".." + "..",  
+>    print ".." + ".."
 
 要插入的字符串太长可以这样转行 打印出来依然只用一个空格连接它们四个不转行：
->    formatter = "%r %r %r %r"
->    print formatter % (
->    "I had this thing.",
->    "That you could type up right.",
->    "But it didn't sing.",
->    "So I said goodnight."
+>    formatter = "%r %r %r %r"  
+>    print formatter % (  
+>    "I had this thing.",  
+>    "That you could type up right.",  
+>    "But it didn't sing.",  
+>    "So I said goodnight."  
 >    )
 
 ## Exercise 9~10 转义字符 \ 特殊功能
@@ -70,7 +70,7 @@ print "...%s...%s..." % ("..", "..") （只有一个可省略括号 如果是数
 用 %r 插入的转义字符显示原型 不起作用；
 这段代码会让一个杠杠无限旋转 我不知道怎么停止它：
 > while True:  
-> &emsp;&emsp;for i in ["/","-","|","\\","|"]:
+> &emsp;&emsp;for i in ["/","-","|","\\","|"]:  
 > &emsp;&emsp;&emsp;&emsp;print "%s\r" % i,
 
 ## Exercise 11~14 从外部得到字符串并赋值给变量
