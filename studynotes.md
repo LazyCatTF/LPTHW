@@ -42,36 +42,36 @@ print "...%s...%s..." % ("..", "..") （只有一个可省略括号 如果是数
 
 打印十个点 字符串倍增：print "." * 10；
 逗号连接两行打印的字符串 打印出来一个空格连接 不转行：
-    print ".." + "..",
-    print ".." + ".."
+>    print ".." + "..",
+>    print ".." + ".."
 
 要插入的字符串太长可以这样转行 打印出来依然只用一个空格连接它们四个不转行：
-    formatter = "%r %r %r %r"
-    print formatter % (
-    "I had this thing.",
-    "That you could type up right.",
-    "But it didn't sing.",
-    "So I said goodnight."
-    )
+>    formatter = "%r %r %r %r"
+>    print formatter % (
+>    "I had this thing.",
+>    "That you could type up right.",
+>    "But it didn't sing.",
+>    "So I said goodnight."
+>    )
 
 ## Exercise 9~10 转义字符 \ 特殊功能
 
 字符串中可用 \n 代表空格；
 若干行字符串 用三个引号；
 这样打印出来前后会空一行 三行前后与引号之间不转行也可以 而且前后不空行：
-    print """
-    ...
-    ...
-    ...
-    """
+>    print """
+>    ...
+>    ...
+>    ...
+>    """
 
 \\ 一个反斜杠 \' \" 引号 和框住字符串的引号区分开 \n 空格 \t 缩进四格 \r 光标移动到最前（此时输入别的字符会替换后面相应数量的字符） 等等；
 用 %r 插入内部带有引号的字符串的时候 会加上反斜杠以示区分 和 %s 对比；
 用 %r 插入的转义字符显示原型 不起作用；
 这段代码会让一个杠杠无限旋转 我不知道怎么停止它：
-    while True:
-        for i in ["/","-","|","\\","|"]:
-            print "%s\r" % i,
+>    while True:
+>        for i in ["/","-","|","\\","|"]:
+>            print "%s\r" % i,
 
 ## Exercise 11~14 从外部得到字符串并赋值给变量
 
