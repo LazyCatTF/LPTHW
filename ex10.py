@@ -12,14 +12,7 @@ I'll do a list:
 \t* Catnip\n\t* Grass
 '''
 
-print tabby_cat
-print persian_cat
-print backslash_cat
-print fat_cat
-
-# while True:
-#	for i in ["/","-","|","\\","|"]:
-#		print "%s\r" % i,
-
-print "\"asdasf%r" % '123\"\''
-print "\"asdasf%s" % '123\"\''
+print(tabby_cat)
+print(persian_cat)
+print(backslash_cat)
+print(fat_cat)

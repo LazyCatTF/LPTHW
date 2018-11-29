@@ -1,13 +1,16 @@
-print "How old are you?",
-age = raw_input()
-print "How tall are you?",
-height = raw_input()
-print "How much do you weigh?",
-weight = raw_input()
+print("How old are you?", end=' ')
+age = input()
+print("How tall are you?", end=' ')
+height = input()
+print("How much do you weigh?", end=' ')
+weight = input()
 
-print "So, you're %r old, %r tall and %r heavy." % (
-	age, height, weight)
-	
+print(f"So, you're {age} old, {height} tall and {weight} heavy.")
+
+print("Now, give me a int.", end=' ')
+x = int(input())
+print(x)
+
 # new way to use it:
-name = raw_input("What is your name?")
-print "So, you're %s." % name
+name = input("What is your name? ")
+print(f"Hello {name}!")
