@@ -1,4 +1,4 @@
-# LPTHW (Learn Python The Hard Way) 练习文件及学习笔记
+# LPTHW (Learn Python The Hard Way) 学习笔记
 
 学习环境：Windows 10 & Anaconda with Python 3.7
 
@@ -28,7 +28,7 @@
 
 ## 目录
 
-- LP3THW 学习笔记
+- LP3THW
 	- [EX0 - The Setup](#EX0---The-Setup)
 	- [EX1 - A Good First Program](#EX1---A-Good-First-Program)
 	- [EX2 - Comments and Pound Characters](#EX2---Comments-and-Pound-Characters)
