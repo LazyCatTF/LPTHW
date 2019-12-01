@@ -27,16 +27,29 @@
 ## 目录
 
 - LP3THW 学习笔记
+	- [EX0 - The Setup](EX0---The Setup)
 	- [EX1 - A Good First Program](EX1---A-Good-First-Program)
 	- [EX2 - Comments and Pound Characters](EX2---Comments-and-Pound-Characters)
 	- [EX3 - Numbers and Math](EX3---Numbers-and-Math)
 	- [EX4 - Variables and Names](EX4---Variables-and-Names)
 
+## EX0 - The Setup
+
+- 环境：Windows 10 & Anaconda with Python 3.7
+- 文本编辑器： Notepad++
+- 终端：Cmder（需要将 Anaconda 文件夹地址放入 Path 中）
+- 进入 Python`python`，退出 Python`quit()` `exit()` `Ctrl+Z`
+- 新建文件夹`mkdir xxx`，进入文件夹`cd xxx`
+- 列出当前文件夹中的所有文件和文件夹`ls`/`dir`
+- 切换到上一个窗口`Alt+Tab`
+- 按住`Alt`，按 n 次`Tab`，松开`Alt`切换到上 n 个窗口
+- 按住`Alt`，按一次`Tab`，左右键选择目标窗口，松开`Alt`
+
 ## EX1 - A Good First Program
 
 - 打印`print(...)`
 - 字符串`"..."`
-- 在终端中运行写好的代码`python xx.py`（也可能是`python3` `python3.6`等）
+- 在终端中运行写好的代码`python xx.py`
 - 什么都不打印也会占用一行`print()`/`print("")`
 
 ## EX2 - Comments and Pound Characters
