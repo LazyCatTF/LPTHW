@@ -27,7 +27,7 @@
 ## 目录
 
 - LP3THW 学习笔记
-	- [EX0 - The Setup](EX0---The Setup)
+	- [EX0 - The Setup](EX0---The-Setup)
 	- [EX1 - A Good First Program](EX1---A-Good-First-Program)
 	- [EX2 - Comments and Pound Characters](EX2---Comments-and-Pound-Characters)
 	- [EX3 - Numbers and Math](EX3---Numbers-and-Math)
