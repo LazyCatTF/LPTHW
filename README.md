@@ -36,7 +36,7 @@
 	- [**Exercise 4** Variables and Names](#Exercise-4-Variables-and-Names)
 	- [**Exercise 5** More Variables and Printing](#Exercise-5-More-Variables-and-Printing)
 
-## **Exercise 0** The Setup
+## Exercise 0 The Setup
 
 - 一些终端指令
 	- 进入 Python `python`，退出 Python `quit()` `exit()` `Ctrl+Z`
@@ -49,31 +49,31 @@
 	- 按住`Alt`，按一次`Tab`，左右键选择目标窗口，松开`Alt`
 - 总之，不许用 IDE，233
 
-## **Exercise 1** A Good First Program
+## Exercise 1 A Good First Program
 
 - 打印`print(...)`
 - 字符串`"..."`
 - 在终端中运行写好的代码`python xx.py`
 - 什么都不打印也会占用一行`print()`/`print("")`
 
-## **Exercise 2** Comments and Pound Characters
+## Exercise 2 Comments and Pound Characters
 
 - 注释`# ...`，可作解释说明，或暂时不运行一行代码
 - 字符串中的井号不会被当作注释`"#"`
 
-## **Exercise 3** Numbers and Math
+## Exercise 3 Numbers and Math
 
 - 加减乘除和余数`+` `-` `*` `/` `%`，遵循数学中的运算符号顺序
 - 整型相除得浮点型，如是整数，后加`.0`
 - 不等号`<` `>` `<=` `>=`，运行不等式得布尔型`True`/`False`
 - 打印多个东西`print(..., ..., ...)`，会有空格隔开它们
 
-## **Exercise 4** Variables and Names
+## Exercise 4 Variables and Names
 
 - 给变量赋值`x = 5`
 - 下划线`_`可用在变量名中作空格
 
-## **Exercise 5** More Variables and Printing
+## Exercise 5 More Variables and Printing
 
 - 格式化字符串`f"...{var_name}..."`将变量嵌入字符串
 - 四舍五入
