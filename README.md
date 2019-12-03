@@ -24,7 +24,7 @@
 	- 2.8 - 12：学习 [Interactive Python 2](https://www.coursera.org/learn/interactive-python-2) week 5a
 	- 2.8 - 9、3.2、3.13 - 17、4.5 - 9：学习 [数据科学入门](https://cn.udacity.com/course/intro-to-data-science--ud359) Lesson 1-9.10
 	- 2.26 - 6.14：学习 [ANU COMP2420](https://cs.anu.edu.au/courses/comp2420/) ([alt](https://programsandcourses.anu.edu.au/2019/course/COMP2420))
-	- 12.1 - 2：复习 LP3THW ex01-05
+	- 12.1 - 3：复习 LP3THW ex01-10
 
 ## 目录
 
@@ -35,6 +35,11 @@
 	- [**Exercise 3** Numbers and Math](#Exercise-3-Numbers-and-Math)
 	- [**Exercise 4** Variables and Names](#Exercise-4-Variables-and-Names)
 	- [**Exercise 5** More Variables and Printing](#Exercise-5-More-Variables-and-Printing)
+	- [**Exercise 6** Strings and Text](#Exercise-6-Strings-and-Text)
+	- [**Exercise 7** More Printing](#Exercise-7-More-Printing)
+	- [**Exercise 8** Printing, Printing](#Exercise-8-Printing,-Printing)
+	- [**Exercise 9** Printing, Printing, Printing](#Exercise-9-Printing,-Printing,-Printing)
+	- [**Exercise 10** What Was That?](#Exercise-10-What-Was-That?)
 
 ## Exercise 0 The Setup
 
@@ -52,8 +57,8 @@
 ## Exercise 1 A Good First Program
 
 - 打印`print(...)`
-- 字符串`"..."`
-- 在终端中运行写好的代码`python xx.py`
+- 字符串`"..."` `'...'`
+- 在终端中运行写好的代码`python xxx.py`
 - 什么都不打印也会占用一行`print()`/`print("")`
 
 ## Exercise 2 Comments and Pound Characters
@@ -70,7 +75,7 @@
 
 ## Exercise 4 Variables and Names
 
-- 给变量赋值`x = 5`
+- 给变量赋值`var_name = ...`
 - 下划线`_`可用在变量名中作空格
 
 ## Exercise 5 More Variables and Printing
@@ -79,4 +84,34 @@
 - 四舍五入
 	- `round(1.7333)`取整得 `2`
 	- `round(1.7333, 2)`留小数点后 2 位得 `1.73`
-- 在文本编辑器中输入`round(1.7333)`，运行后显示空行，要加`print()`才行
+- 只有加`print()`的表达式才会在代码运行后显示
+
+## Exercise 6 Strings and Text
+
+- 将变量/表达式嵌入字符串的另一种方式`"...{}...".format(...)`
+- 无缝拼接字符串`"..." + "..."`
+
+## Exercise 7 More Printing
+
+- 无缝拼接同一字符串 n 次`"..." * n`
+- `print(..., end = ' ')`与下一行要打印的东西以空格连接，不转行
+
+## Exercise 8 Printing, Printing
+
+- 将多个变量/表达式嵌入字符串`"{}{}{}".format(..., ..., ...)`
+
+## Exercise 9 Printing, Printing, Printing
+
+- 转义字符`\n`：换行符
+- 多行字符串`"""..."""` `'''...'''`
+
+## Exercise 10 What Was That?
+
+- 转义字符
+	- `\t`：横向制表符（`Tab`键）
+	- `\\`：普通`\`字符
+	- `\'` `\"`：普通`'` `"`字符
+- 在字符串中输入引号的方法
+	1. 在双/单引号字符串中输入单/双引号
+	2. 使用转义字符
+	3. 使用多行字符串
