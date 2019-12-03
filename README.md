@@ -37,9 +37,9 @@
 	- [**Exercise 5** More Variables and Printing](#Exercise-5-More-Variables-and-Printing)
 	- [**Exercise 6** Strings and Text](#Exercise-6-Strings-and-Text)
 	- [**Exercise 7** More Printing](#Exercise-7-More-Printing)
-	- [**Exercise 8** Printing, Printing](#Exercise-8-Printing,-Printing)
-	- [**Exercise 9** Printing, Printing, Printing](#Exercise-9-Printing,-Printing,-Printing)
-	- [**Exercise 10** What Was That?](#Exercise-10-What-Was-That?)
+	- [**Exercise 8** Printing, Printing](#Exercise-8-Printing-Printing)
+	- [**Exercise 9** Printing, Printing, Printing](#Exercise-9-Printing-Printing-Printing)
+	- [**Exercise 10** What Was That?](#Exercise-10-What-Was-That)
 
 ## Exercise 0 The Setup
 
