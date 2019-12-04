@@ -7,10 +7,10 @@ weight = input()
 
 print(f"So, you're {age} old, {height} tall and {weight} heavy.")
 
-print("Now, give me a int.", end=' ')
+print("Now, give me an integer and I'll double it.", end=' ')
 x = int(input())
-print(x)
+print(x * 2)
 
 # new way to use it:
 name = input("What is your name? ")
-print(f"Hello {name}!")
+print(f"Nice to see you {name}!")

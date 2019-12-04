@@ -24,7 +24,7 @@
 	- 2.8 - 12：学习 [Interactive Python 2](https://www.coursera.org/learn/interactive-python-2) week 5a
 	- 2.8 - 9、3.2、3.13 - 17、4.5 - 9：学习 [数据科学入门](https://cn.udacity.com/course/intro-to-data-science--ud359) Lesson 1-9.10
 	- 2.26 - 6.14：学习 [ANU COMP2420](https://cs.anu.edu.au/courses/comp2420/) ([alt](https://programsandcourses.anu.edu.au/2019/course/COMP2420))
-	- 12.1 - 3：复习 LP3THW ex01-10
+	- 12.1 - 4：复习 LP3THW ex01-11
 
 ## 目录
 
@@ -40,6 +40,7 @@
 	- [**Exercise 8** Printing, Printing](#Exercise-8-Printing-Printing)
 	- [**Exercise 9** Printing, Printing, Printing](#Exercise-9-Printing-Printing-Printing)
 	- [**Exercise 10** What Was That?](#Exercise-10-What-Was-That)
+	- [**Exercise 11** Asking Questions](#Exercise-11-Asking-Questions)
 
 ## Exercise 0 The Setup
 
@@ -75,7 +76,7 @@
 
 ## Exercise 4 Variables and Names
 
-- 给变量赋值`var_name = ...`
+- 给变量赋值`x = ...`
 - 下划线`_`可用在变量名中作空格
 
 ## Exercise 5 More Variables and Printing
@@ -115,3 +116,8 @@
 	1. 在双/单引号字符串中输入单/双引号
 	2. 使用转义字符
 	3. 使用多行字符串
+
+## Exercise 11 Asking Questions
+
+- 获取用户输入的内容（字符串）`x = input()`
+- 转换`x`的数据类型为整型`int(x)`
