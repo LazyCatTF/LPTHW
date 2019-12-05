@@ -18,7 +18,7 @@
 	- 8.4：整理 LPTHW ex1-21  [学习笔记（with python 2）](https://github.com/lctfwyt/LPTHW/blob/master/studynotes.md)
 - 2018
 	- 11.16 - 22：学习 [Interactive Python 1](https://www.coursera.org/learn/interactive-python-1) week 0-1
-	- 11.28 - 12.1、12.10：将 ex1-21 更新到 LP3THW 版本
+	- 11.28 - 12.1、12.10：将 ex1-21 更新到 LP3THW 版本（with python 3）
 - 2019
 	- 1.23 - 2.8：学习 [Interactive Python 1](https://www.coursera.org/learn/interactive-python-1) week 2-4
 	- 2.8 - 12：学习 [Interactive Python 2](https://www.coursera.org/learn/interactive-python-2) week 5a
