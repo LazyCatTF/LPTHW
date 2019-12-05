@@ -2,7 +2,7 @@
 
 学习环境：Windows 10 & Anaconda with Python 3.7
 
-文本编辑器 & 终端： Notepad++ & Cmder（需要将 Anaconda 文件夹地址放入 Path 中）
+文本编辑器 & 终端： Notepad++ & Cmder（需要将 Anaconda 文件夹地址放入 PATH 中）
 
 参考资料：
 - *Learn Python The Hard Way (LPTHW)*
@@ -24,7 +24,7 @@
 	- 2.8 - 12：学习 [Interactive Python 2](https://www.coursera.org/learn/interactive-python-2) week 5a
 	- 2.8 - 9、3.2、3.13 - 17、4.5 - 9：学习 [数据科学入门](https://cn.udacity.com/course/intro-to-data-science--ud359) Lesson 1-9.10
 	- 2.26 - 6.14：学习 [ANU COMP2420](https://cs.anu.edu.au/courses/comp2420/) ([alt](https://programsandcourses.anu.edu.au/2019/course/COMP2420))
-	- 12.1 - 4：复习 LP3THW ex01-11
+	- 12.1 - 5：复习 LP3THW ex01-12
 
 ## 目录
 
@@ -41,6 +41,7 @@
 	- [**Exercise 9** Printing, Printing, Printing](#Exercise-9-Printing-Printing-Printing)
 	- [**Exercise 10** What Was That?](#Exercise-10-What-Was-That)
 	- [**Exercise 11** Asking Questions](#Exercise-11-Asking-Questions)
+	- [**Exercise 12** Prompting People](#Exercise-12-Prompting-People)
 
 ## Exercise 0 The Setup
 
@@ -121,3 +122,8 @@
 
 - 获取用户输入的内容（字符串）`x = input()`
 - 转换`x`的数据类型为整型`int(x)`
+
+## Exercise 12 Prompting People
+
+- `x = input("...? ")`等价于`print("...?", end = ' '); x = input()`
+- 阅读 Python 文档`python -m pydoc xxx`，`Enter`键下滚，`q`键退出
