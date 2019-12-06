@@ -1,4 +1,4 @@
-# LPTHW (Learn Python The Hard Way) 学习笔记
+# LPTHW (Learn Python The Hard Way)
 
 学习环境：Windows 10 & Anaconda with Python 3.7
 
@@ -24,9 +24,9 @@
 	- 2.8 - 12：学习 [Interactive Python 2](https://www.coursera.org/learn/interactive-python-2) week 5a
 	- 2.8 - 9、3.2、3.13 - 17、4.5 - 9：学习 [数据科学入门](https://cn.udacity.com/course/intro-to-data-science--ud359) Lesson 1-9.10
 	- 2.26 - 6.14：学习 [ANU COMP2420](https://cs.anu.edu.au/courses/comp2420/) ([alt](https://programsandcourses.anu.edu.au/2019/course/COMP2420))
-	- 12.1 - 5：复习 LP3THW ex01-12
+	- 12.1 - 6：复习 LP3THW ex01-14
 
-## 目录
+## 学习笔记目录
 
 - LP3THW
 	- [**Exercise 0** The Setup](#Exercise-0-The-Setup)
@@ -42,6 +42,8 @@
 	- [**Exercise 10** What Was That?](#Exercise-10-What-Was-That)
 	- [**Exercise 11** Asking Questions](#Exercise-11-Asking-Questions)
 	- [**Exercise 12** Prompting People](#Exercise-12-Prompting-People)
+	- [**Exercise 13** Parameters, Unpacking, Variables](#Exercise-13-Parameters-Unpacking-Variables)
+	- [**Exercise 14** Prompting and Passing](#Exercise-14-Prompting-and-Passing)
 
 ## Exercise 0 The Setup
 
@@ -60,7 +62,7 @@
 
 - 打印`print(...)`
 - 字符串`"..."` `'...'`
-- 在终端中运行写好的代码`python xxx.py`
+- 在终端中运行 py 文件`python xxx.py`
 - 什么都不打印也会占用一行`print()`/`print("")`
 
 ## Exercise 2 Comments and Pound Characters
@@ -127,3 +129,17 @@
 
 - `x = input("...? ")`等价于`print("...?", end = ' '); x = input()`
 - 阅读 Python 文档`python -m pydoc xxx`，`Enter`键下滚，`q`键退出
+
+## Exercise 13 Parameters, Unpacking, Variables
+
+- 导入`sys`模块中的`argv`函数`from sys import argv`
+- `argv`返回一个列表，储存运行 py 文件时跟在`python`后面的参数字符串们
+	- `argv`中储存的第一个参数是所运行的 py 文件名
+- 解包`argv`，即将其中储存的字符串赋值给变量`x, y, z = argv`
+	- 解包时变量数和`argv`中的参数数必须一致，否则报错
+- 也可以直接用列表索引`argv[0]` `argv[1]` `argv[2]`
+
+## Exercise 14 Prompting and Passing
+
+- 将提示词赋值给变量`prompt = ' >`，之后一律`input(prompt)`
+	- 如需更换所有问题的提示词，在赋值处更改一次即可
