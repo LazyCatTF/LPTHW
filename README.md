@@ -164,7 +164,7 @@
 ## Exercise 16 Reading and Writing Files
 
 - 文件内容（字符串）`file.read()`可被赋值
-- 仅读取并返回一行（字符串，见`\n`停，包括`\n`）`file.readline()`
+- 仅读取并返回一行（字符串，见`'\n'`停，包括`'\n'`）`file.readline()`
 - 清空文件内容`file.truncate()`，**要小心！**
 - 将`'stuff'`写入文件`file.write('stuff')`
 - “光标”返回至开头`file.seek(0)`
