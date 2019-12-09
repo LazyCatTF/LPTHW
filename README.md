@@ -25,6 +25,7 @@
 	- 2.8 - 9、3.2、3.13 - 17、4.5 - 9：学习 [数据科学入门](https://cn.udacity.com/course/intro-to-data-science--ud359) Lesson 1-9.10
 	- 2.26 - 6.14：学习 [ANU COMP2420](https://cs.anu.edu.au/courses/comp2420/) ([alt](https://programsandcourses.anu.edu.au/2019/course/COMP2420))
 	- 12.1 - 6：复习 LP3THW ex01-14
+	- 12.9：复习 LPTHW ex15-16
 
 ## 学习笔记目录
 
@@ -44,6 +45,8 @@
 	- [**Exercise 12** Prompting People](#Exercise-12-Prompting-People)
 	- [**Exercise 13** Parameters, Unpacking, Variables](#Exercise-13-Parameters-Unpacking-Variables)
 	- [**Exercise 14** Prompting and Passing](#Exercise-14-Prompting-and-Passing)
+	- [**Exercise 15** Reading Files](#Exercise-15-Reading-Files)
+	- [**Exercise 16** Reading and Writing Files](#Exercise-16-Reading-and-Writing-Files)
 
 ## Exercise 0 The Setup
 
@@ -128,7 +131,8 @@
 ## Exercise 12 Prompting People
 
 - `x = input("...? ")`等价于`print("...?", end = ' '); x = input()`
-- 阅读 Python 文档`python -m pydoc xxx`，`Enter`键下滚，`q`键退出
+- 阅读 Python 文档`python -m pydoc xxx`
+	- 假如文档太长：`Enter`键下滚，`q`键退出
 
 ## Exercise 13 Parameters, Unpacking, Variables
 
@@ -143,3 +147,36 @@
 
 - 将提示词赋值给变量`prompt = ' >`，之后一律`input(prompt)`
 	- 如需更换所有问题的提示词，在赋值处更改一次即可
+
+## Exercise 15 Reading Files
+
+- 打开文件并返回文件本身`open(filename)`
+	- `filename`是字符串，比如`"ex15_sample.txt"`
+	- 文件可被多次打开，不报错
+	- 文件可被赋值`file = open(filename)`
+- 读取并返回文件内容（字符串）`file.read()`
+	- 可被打印`print(file.read())`
+	- 第二次使用`file.read()`就只返回空字符串
+	- 因为上一次阅读后，“光标”停在了文件末尾
+	- 文件被关闭再打开，“光标”会回到开头
+- 关闭文件`file.close()`
+
+## Exercise 16 Reading and Writing Files
+
+- 文件内容（字符串）`file.read()`可被赋值
+- 仅读取并返回一行（字符串，见`\n`停，包括`\n`）`file.readline()`
+- 清空文件内容`file.truncate()`，**要小心！**
+- 将`'stuff'`写入文件`file.write('stuff')`
+- “光标”返回至开头`file.seek(0)`
+- `file.read()`默认只读模式`'r'`打开文件，为文件安全着想
+- 以只写模式打开文件`open(filename, 'w')`
+	- 如文件不存在，创建文件
+	- 如文件存在，清空文件内容，**要小心！**
+	- 只可写入文件内容，不可读取内容
+- 以追加模式打开文件`open(filename, 'a')`
+	- 如文件不存在，创建文件
+	- 如文件存在，“光标”在文件末尾
+	- 只可追加文件内容，不可读取内容
+- 读写模式，可读亦可写`'r+'` `'w+'` `'a+'`
+	- `'r+'`在`'r'`基础上增加写入功能，从开头写入，写多少覆盖多少
+	- `'w+'`/`'a+'`在`'w'`/`'a'`基础上增加读取功能

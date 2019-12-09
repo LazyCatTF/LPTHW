@@ -3,7 +3,7 @@ from sys import argv
 script, filename = argv
 
 # print(f"We're going to erase {filename}.")
-# print("If you don't want that, hit CTRL+C (^C).")
+# print("If you don't want that, hit CTRL-C (^C).")
 # print("If you do want that, hit RETURN.")
 
 # input("?")
@@ -22,10 +22,16 @@ line3 = input("line 3: ")
 
 print("I'm going to write these to the file.")
 
-target.write(f"{line1}\n{line2}\n{line3}\n")
+# target.write(line1)
+# target.write("\n")
+# target.write(line2)
+# target.write("\n")
+# target.write(line3)
+# target.write("\n")
+target.write(f"{line1}\n{line2}\n{line3}")
 target.seek(0)
 
-print("Now let's see what's in the file now.")
+print("Let's see what's in the file now.")
 print(target.read())
 
 print("And finally, we close it.")
