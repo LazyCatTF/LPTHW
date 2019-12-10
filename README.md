@@ -51,7 +51,7 @@
 	- [**Exercise 19** Functions and Variables](#Exercise-19-Functions-and-Variables)
 	- [**Exercise 20** Functions and Files](#Exercise-20-Functions-and-Files)
 	- [**Exercise 21** Functions Can Return Something](#Exercise-21-Functions-Can-Return-Something)
-	- [**Exercise 22** What Do You Learn So Far?](#Excercise-22-What-Do-You-Learn-So-Far)
+	- [**Exercise 22** What Do You Learn So Far?](#Exercise-22-What-Do-You-Learn-So-Far)
 
 ## Exercise 0 The Setup
 
@@ -253,7 +253,7 @@ def function_name(arg1, arg2, ...):
 - 函数定义中`return`后面跟着的是函数返回值，相当于给函数赋值
 - 转换`x`的数据类型为浮点型`float(x)`
 
-## Excercise 22 What Do You Learn So Far?
+## Exercise 22 What Do You Learn So Far?
 
 - 复习课，笔记略
-- 复习的时候，每 15 分钟就休息一下，这样会学得更快、挫败感更少
+- 复习的时候，每 15 分钟休息一下，这样会学得更快、挫败感更少
