@@ -65,7 +65,7 @@
 	- 按住`Alt`，按 n 次`Tab`，松开`Alt`切换到上 n 个窗口
 	- 按住`Alt`，按一次`Tab`，左右键选择目标窗口，松开`Alt`
 - 总之，不许用 IDE，233
-																[[返回顶部]](LPTHW-Learn-Python-The-Hard-Way)
+<p align="right">[[返回顶部]](#LPTHW-Learn-Python-The-Hard-Way)</p>
 ## Exercise 1 A Good First Program
 
 - 打印`print(...)`
@@ -97,7 +97,7 @@
 	- `round(1.7333)`取整得 `2`
 	- `round(1.7333, 2)`留小数点后 2 位得 `1.73`
 - 只有加`print()`的表达式才会在代码运行后显示
-																[[返回顶部]](LPTHW-Learn-Python-The-Hard-Way)
+<p align="right">[[返回顶部]](#LPTHW-Learn-Python-The-Hard-Way)</p>
 ## Exercise 6 Strings and Text
 
 - 将变量/表达式嵌入字符串的另一种方式`"...{}...".format(...)`
@@ -127,7 +127,7 @@
 	1. 在双/单引号字符串中输入单/双引号
 	2. 使用转义字符
 	3. 使用多行字符串
-																[[返回顶部]](LPTHW-Learn-Python-The-Hard-Way)
+<p align="right">[[返回顶部]](#LPTHW-Learn-Python-The-Hard-Way)</p>
 ## Exercise 11 Asking Questions
 
 - 获取用户输入的内容（字符串）`x = input()`
@@ -165,7 +165,7 @@
 	- 因为上一次阅读后，“光标”停在了文件末尾
 	- 文件被关闭再打开，“光标”会回到开头
 - 关闭文件`file.close()`
-																[[返回顶部]](LPTHW-Learn-Python-The-Hard-Way)
+<p align="right">[[返回顶部]](#LPTHW-Learn-Python-The-Hard-Way)</p>
 ## Exercise 16 Reading and Writing Files
 
 - 文件内容（字符串）`file.read()`可被赋值
@@ -205,7 +205,7 @@
 	- 课本上是`echo "..." > xxx.txt`，但我这里会将引号和大于号前的空格也写入
 - 在终端读取文件内容`cat xxx.txt`返回`...`
 - 在我的终端无法用`man cat`查看帮助文档，`help cat`也会显示对此命令不支持，辣鸡 Windows ...
-																[[返回顶部]](LPTHW-Learn-Python-The-Hard-Way)
+<p align="right">[[返回顶部]](#LPTHW-Learn-Python-The-Hard-Way)</p>
 ## Exercise 18 Names, Variables, Code, Functions
 
 - 定义函数：
@@ -236,7 +236,7 @@ def function_name(arg1, arg2, ...):
 - 只要是能被赋值给变量的，都能作为参数被传入函数
 - 避免（全局）变量和函数中的参数（局部变量）同名
 - 函数中可以调用函数
-																[[返回顶部]](LPTHW-Learn-Python-The-Hard-Way)
+<p align="right">[[返回顶部]](#LPTHW-Learn-Python-The-Hard-Way)</p>
 ## Exercise 20 Functions and Files
 
 - `x += y`等价于`x = x + y`
