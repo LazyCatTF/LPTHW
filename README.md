@@ -25,7 +25,7 @@
 	- 2.8 - 9、3.2、3.13 - 17、4.5 - 9：学习 [数据科学入门](https://cn.udacity.com/course/intro-to-data-science--ud359) Lesson 1-9.10
 	- 2.26 - 6.14：学习 [ANU COMP2420](https://cs.anu.edu.au/courses/comp2420/) ([alt](https://programsandcourses.anu.edu.au/2019/course/COMP2420))
 	- 12.1 - 6、12.9 - 10：复习 LP3THW ex01-21
-	- 12.11：学习 LP3THW ex23
+	- 12.11：学习 LP3THW ex23、26
 
 ## 学习笔记目录
 
