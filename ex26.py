@@ -24,9 +24,9 @@ txt_again = open(file_again)
 print(txt_again.read())                             # mistaking . for _
 
 
-print("Let's practice everything.")                 # mis-using ' in string
-print('You\'d need to know \'bout escapes \
-      with \\ that do \n newlines and \t tabs.')    # missing \
+print("Let's practice everything.")                 # mis-using ' in a string
+print('You\'d need to know \'bout escapes')         # wrong multi-line printing
+print('with \\ that do \n newlines and \t tabs.')   # wrong multi-line printing
 
 poem = """
 \tThe lovely world
