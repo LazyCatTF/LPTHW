@@ -18,10 +18,10 @@
 - 2017
 	- 7.28 - 8.3：学习 LPTHW ex1-21
 	- 8.4：整理 LPTHW ex1-21  [学习笔记（with python 2）](https://github.com/lctfwyt/LPTHW/blob/master/studynotes.md)
-	- 8.7：开始学习 [开智学堂 Python 基础班四期](https://detail.youzan.com/show/goods?alias=2xlc5axxl5m8h)，对新手不友好，2w 就掉队了 _(:з」∠)_
+	- 8.7：开始学习 [开智学堂 Python 基础班四期](https://detail.youzan.com/show/goods?alias=2xlc5axxl5m8h)，对新手不友好，2w 就掉队了 \_(:з」∠)\_
 	- 学习 LPTHW ex22 之后的一些章节，日期和进度无记录
 - 2018
-	- 7.22 - 11.5 学习 [ANU COMP1100](https://cs.anu.edu.au/courses/comp1100/) ([alt](https://programsandcourses.anu.edu.au/2018/course/COMP1100))，学的是 Haskell 不是 Python，让我在编程方面真正入门了
+	- 7.22 - 11.5 学习 [ANU COMP1100](https://cs.anu.edu.au/courses/comp1100/) ([alt](https://programsandcourses.anu.edu.au/2018/course/COMP1100))，学的是 Haskell 不是 Python，让我在编程方面真正入门
 	- 11.16 - 22：学习 [Coursera Interactive Python 1](https://www.coursera.org/learn/interactive-python-1) week 0-1
 	- 11.28 - 12.1、12.10：将 ex1-21 更新到 LP3THW 版本（with python 3）
 - 2019
