@@ -13,19 +13,24 @@
 
 没有什么半途而废，只是暂时歇息而已~
 
+那些成功坚持下来的人，平均“放弃”过 5 次~
+
 - 2017
 	- 7.28 - 8.3：学习 LPTHW ex1-21
 	- 8.4：整理 LPTHW ex1-21  [学习笔记（with python 2）](https://github.com/lctfwyt/LPTHW/blob/master/studynotes.md)
+	- 8.7：开始学习 [开智学堂 Python 基础班四期](https://detail.youzan.com/show/goods?alias=2xlc5axxl5m8h)，对新手不友好，2w 就掉队了 _(:з」∠)_
+	- 学习 LPTHW ex22 之后的一些章节，日期和进度无记录
 - 2018
-	- 11.16 - 22：学习 [Interactive Python 1](https://www.coursera.org/learn/interactive-python-1) week 0-1
+	- 7.22 - 11.5 学习 [ANU COMP1100](https://cs.anu.edu.au/courses/comp1100/) ([alt](https://programsandcourses.anu.edu.au/2018/course/COMP1100))，学的是 Haskell 不是 Python，让我在编程方面真正入门了
+	- 11.16 - 22：学习 [Coursera Interactive Python 1](https://www.coursera.org/learn/interactive-python-1) week 0-1
 	- 11.28 - 12.1、12.10：将 ex1-21 更新到 LP3THW 版本（with python 3）
 - 2019
-	- 1.23 - 2.8：学习 [Interactive Python 1](https://www.coursera.org/learn/interactive-python-1) week 2-4
-	- 2.8 - 12：学习 [Interactive Python 2](https://www.coursera.org/learn/interactive-python-2) week 5a
-	- 2.8 - 9、3.2、3.13 - 17、4.5 - 9：学习 [数据科学入门](https://cn.udacity.com/course/intro-to-data-science--ud359) Lesson 1-9.10
+	- 1.23 - 2.8：学习 [Coursera Interactive Python 1](https://www.coursera.org/learn/interactive-python-1) week 2-4
+	- 2.8 - 12：学习 [Coursera Interactive Python 2](https://www.coursera.org/learn/interactive-python-2) week 5a
+	- 2.8 - 9、3.2、3.13 - 17、4.5 - 9：学习 [Udacity 数据科学入门](https://cn.udacity.com/course/intro-to-data-science--ud359) Lesson 1-9.10
 	- 2.26 - 6.14：学习 [ANU COMP2420](https://cs.anu.edu.au/courses/comp2420/) ([alt](https://programsandcourses.anu.edu.au/2019/course/COMP2420))
 	- 12.1 - 6、12.9 - 10：复习 LP3THW ex01-21 并整理笔记（如下）
-	- 12.11：学习 LP3THW ex23-26
+	- 12.11 - 12：学习 LP3THW ex23-31
 
 ## 学习笔记目录
 
