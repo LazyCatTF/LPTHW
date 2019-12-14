@@ -30,7 +30,7 @@
 	- 2.8 - 9、3.2、3.13 - 17、4.5 - 9：学习 [Udacity 数据科学入门](https://cn.udacity.com/course/intro-to-data-science--ud359) Lesson 1-9.10
 	- 2.26 - 6.14：学习 [ANU COMP2420](https://cs.anu.edu.au/courses/comp2420/) ([alt](https://programsandcourses.anu.edu.au/2019/course/COMP2420))
 	- 12.1 - 6、12.9 - 10：复习 LP3THW ex01-21 并整理笔记（如下）
-	- 12.11 - 13：学习 LP3THW ex23-37
+	- 12.11 - 14：学习 LP3THW ex23-39
 
 ## 学习笔记目录
 
@@ -150,8 +150,8 @@
 
 ## Exercise 13 Parameters, Unpacking, Variables
 
-- 导入`sys`模块中的`argv`函数`from sys import argv`
-- `argv`返回一个列表，储存运行 py 文件时跟在`python`后面的参数字符串们
+- 导入`sys`模块中的`argv`变量`from sys import argv`
+- `argv`是一个列表，储存运行 py 文件时跟在`python`后面的参数字符串们
 	- `argv`中储存的第一个参数是所运行的 py 文件名
 - 解包`argv`，即将其中储存的字符串赋值给变量`x, y, z = argv`
 	- 解包时变量数和`argv`中的参数数必须一致，否则报错
