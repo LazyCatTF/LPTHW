@@ -6,7 +6,7 @@
 
 参考资料：
 - *Learn Python The Hard Way (LPTHW)*
-- *Learn Python 3 The Hard Way (LP3THW)*
+- *Learn Python 3 The Hard Way (LP3THW)* 及其[配套视频](https://www.bilibili.com/video/av25675370?from=search&seid=12464156041802643974)
 - *Learn More Python 3 The Hard Way (LMP3THW)*
 
 ## 我的 Python 学习之路
