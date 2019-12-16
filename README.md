@@ -1,36 +1,41 @@
 # LPTHW (Learn Python The Hard Way)
 
-学习环境：Windows 10 & Anaconda with Python 3.7
+学习环境：
+- Windows 10 & Anaconda with Python 3.7
+- 文本编辑器：Notepad++；终端：Cmder
+- 需要将 Anaconda 文件夹地址放入 PATH 中
 
-文本编辑器 & 终端： Notepad++ & Cmder（需要将 Anaconda 文件夹地址放入 PATH 中）
+课本：
+- *Learn Python The Hard Way* (LPTHW)
+- *Learn Python 3 The Hard Way* (LP3THW) 及[配套视频（推荐）](https://www.bilibili.com/video/av25675370?from=search&seid=12464156041802643974)
+- *Learn More Python 3 The Hard Way* (LMP3THW)
 
-参考资料：
-- *Learn Python The Hard Way (LPTHW)*
-- *Learn Python 3 The Hard Way (LP3THW)* 及其[配套视频](https://www.bilibili.com/video/av25675370?from=search&seid=12464156041802643974)
-- *Learn More Python 3 The Hard Way (LMP3THW)*
+其他资源：
+- Git/GitHub：[Udacity 用 Git 进行版本控制](https://cn.udacity.com/course/version-control-with-git--ud123)，包教包会，墙裂推荐！
+- Markdown：[Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet)，需要什么查什么，很快就会啦~
 
 ## 我的 Python 学习之路
 
+那些成功坚持下来的人，平均“放弃”过 5 次
+
 没有什么半途而废，只是暂时歇息而已~
 
-那些成功坚持下来的人，平均“放弃”过 5 次~
-
 - 2017
-	- 7.28 - 8.3：学习 LPTHW ex1-21
-	- 8.4：整理 LPTHW ex1-21  [学习笔记（with python 2）](https://github.com/lctfwyt/LPTHW/blob/master/studynotes.md)
-	- 8.7：开始学习 [开智学堂 Python 基础班四期](https://detail.youzan.com/show/goods?alias=2xlc5axxl5m8h)，对新手不友好，2w 就掉队了 \_(:з」∠)\_
-	- 学习 LPTHW ex22 之后的一些章节，日期和进度无记录
+	- 【7.28 - 8.3，7天】 学习 LPTHW ex1-21（with python 2）
+	- 【8.4，1天】 整理 LPTHW ex1-21 [学习笔记](https://github.com/lctfwyt/LPTHW/blob/master/studynotes.md)
+	- 【8.7】 开始学习 [开智学堂 Python 基础班四期](https://detail.youzan.com/show/goods?alias=2xlc5axxl5m8h)，对新手不友好，2w 就掉队了 \_(:з」∠)\_
+	- 【未知】 学习 LPTHW ex22 之后的一些章节
 - 2018
-	- 7.22 - 11.5 学习 [ANU COMP1100](https://cs.anu.edu.au/courses/comp1100/) ([alt](https://programsandcourses.anu.edu.au/2018/course/COMP1100))，学的是 Haskell 不是 Python，让我在编程方面真正入门
-	- 11.16 - 22：学习 [Coursera Interactive Python 1](https://www.coursera.org/learn/interactive-python-1) week 0-1
-	- 11.28 - 12.1、12.10：将 ex1-21 更新到 LP3THW 版本（with python 3）
+	- 【7.22 - 11.5，30天】 学习 [ANU COMP1100](https://cs.anu.edu.au/courses/comp1100/) ([alt](https://programsandcourses.anu.edu.au/2018/course/COMP1100))，学的是 Haskell 不是 Python，让我在编程方面真正入门
+	- 【11.16 - 22，8天】 学习 [Coursera Interactive Python 1](https://www.coursera.org/learn/interactive-python-1) week 0-1
+	- 【11.28 - 12.10，4天】 将 ex1-21 更新到 LP3THW 版本（with python 3）
 - 2019
-	- 1.23 - 2.8：学习 [Coursera Interactive Python 1](https://www.coursera.org/learn/interactive-python-1) week 2-4
-	- 2.8 - 12：学习 [Coursera Interactive Python 2](https://www.coursera.org/learn/interactive-python-2) week 5a
-	- 2.8 - 9、3.2、3.13 - 17、4.5 - 9：学习 [Udacity 数据科学入门](https://cn.udacity.com/course/intro-to-data-science--ud359) Lesson 1-9.10
-	- 2.26 - 6.14：学习 [ANU COMP2420](https://cs.anu.edu.au/courses/comp2420/) ([alt](https://programsandcourses.anu.edu.au/2019/course/COMP2420))
-	- 12.1 - 6、12.9 - 10：复习 LP3THW ex01-21 并整理笔记（如下）
-	- 12.11 - 16：学习 LP3THW ex23-41
+	- 【1.23 - 2.8，14天】 学习 [Coursera Interactive Python 1](https://www.coursera.org/learn/interactive-python-1) week 2-4
+	- 【2.8 - 2.12，4天】 学习 [Coursera Interactive Python 2](https://www.coursera.org/learn/interactive-python-2) week 5a
+	- 【2.8 - 4.9，11天】 学习 [Udacity 数据科学入门](https://cn.udacity.com/course/intro-to-data-science--ud359) Lesson 1-9.10
+	- 【2.26 - 6.14，41天】 学习 [ANU COMP2420](https://cs.anu.edu.au/courses/comp2420/) ([alt](https://programsandcourses.anu.edu.au/2019/course/COMP2420))
+	- 【12.1 - 12.10，8天】 复习 LP3THW ex01-21 并整理笔记（如下）
+	- 【12.11 - 12.16，6天】 h学习 LP3THW ex23-41
 
 ## 学习笔记目录
 
@@ -195,13 +200,13 @@
 - 以只写模式打开文件`open(filename, 'w')`
 	- 如文件不存在，创建文件
 	- 如文件存在，清空文件内容，**要小心！**
-	- 只可写入内容，不可读取内容
+	- 只可写入或清空内容，不可读取内容
 - 以追加模式打开文件`open(filename, 'a')`
 	- 如文件不存在，创建文件
 	- 如文件存在，“光标”在文件末尾
-	- 只可写入内容，不可读取内容
+	- 只可写入或清空内容，不可读取内容
 - 读写模式，可读亦可写`'r+'` `'w+'` `'a+'`
-	- `'r+'`在`'r'`基础上增加写入功能，从开头写入，写多少覆盖多少
+	- `'r+'`在`'r'`基础上增加写入/清空功能，写多少覆盖多少
 	- `'w+'`/`'a+'`在`'w'`/`'a'`基础上增加读取功能
 
 ## Exercise 17 More Files
