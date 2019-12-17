@@ -35,7 +35,7 @@
 	- 【2.8 - 4.9，11天】 学习 [Udacity 数据科学入门](https://cn.udacity.com/course/intro-to-data-science--ud359) Lesson 1-9.10
 	- 【2.26 - 6.14，41天】 学习 [ANU COMP2420](https://cs.anu.edu.au/courses/comp2420/) ([alt](https://programsandcourses.anu.edu.au/2019/course/COMP2420))
 	- 【12.1 - 12.10，8天】 复习 LP3THW ex01-21 并整理笔记（如下）
-	- 【12.11 - 12.17，7天】 h学习 LP3THW ex23-42
+	- 【12.11 - 12.17，7天】 学习 LP3THW ex23-42
 
 ## 学习笔记目录
 
